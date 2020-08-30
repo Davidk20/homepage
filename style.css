@@ -1,0 +1,46 @@
+body {
+  background-color: #151515;
+  min-width: 100vw;
+  min-height: 100vh;
+  color: #999999; }
+  body .headers_list {
+    display: flex;
+    flex-direction: column; }
+    body .headers_list .category {
+      border-left: 2px solid #999999;
+      margin: 1em 0 1em 1em;
+      padding-left: 1em; }
+      body .headers_list .category .header {
+        font-size: 2em; }
+      body .headers_list .category .links {
+        margin-top: 1em;
+        margin-left: 2em; }
+        body .headers_list .category .links .link {
+          height: 50px;
+          padding-bottom: 1em;
+          text-decoration: none;
+          color: inherit; }
+          body .headers_list .category .links .link div span {
+            line-height: 50px;
+            font-size: 1.5em;
+            display: inline-block; }
+          body .headers_list .category .links .link div img {
+            height: 50px;
+            display: inline-block;
+            float: left;
+            padding-right: 1em; }
+
+@media screen and (min-width: 700px) {
+  body .headers_list {
+    flex-direction: row;
+    flex-wrap: wrap; }
+    body .headers_list .category {
+      min-width: 300px; }
+      body .headers_list .category .links .link {
+        height: 75px; }
+        body .headers_list .category .links .link div span {
+          line-height: 75px; }
+        body .headers_list .category .links .link div img {
+          height: 75px; } }
+
+/*# sourceMappingURL=style.css.map */

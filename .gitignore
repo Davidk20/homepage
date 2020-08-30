@@ -1,0 +1,5 @@
+/.idea/
+.sass-cache/
+.DS_store
+style.css.map
+style.scss
