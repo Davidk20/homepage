@@ -44,12 +44,14 @@ body .headers_list .category .links {
   transition: display 3s;
 }
 body .headers_list .category .links .link {
-  height: 60px;
   padding-bottom: 1em;
   text-decoration: none;
   color: inherit;
   font-weight: 400;
   font-size: 22px;
+}
+body .headers_list .category .links .link div {
+  height: 60px;
 }
 body .headers_list .category .links .link div span {
   line-height: 50px;
