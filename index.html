@@ -5,6 +5,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script type="text/javascript" src="script.js"></script>
     <base target="_blank" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
 </head>
@@ -21,8 +22,8 @@
     <div class="headers_list">
 
         <div class="category">
-            <div class="header">Essentials</div>
-            <div class="links">
+            <div class="header" id="essentials" onclick="expand(this.id)">Essentials</div>
+            <div class="links" id="essentialsDropdown">
                 <a href="https://mail.google.com/mail/u/0/#inbox" class="link">
                     <div>
                         <img src="https://e7.pngegg.com/pngimages/682/7/png-clipart-gmail-logo-gmail-email-aol-mail-outlook-com-logo-gmail-angle-text-thumbnail.png"/>
@@ -46,8 +47,8 @@
         </div>
 
         <div class="category">
-            <div class="header">University</div>
-            <div class="links">
+            <div class="header" id="university" onclick="expand(this.id)">University</div>
+            <div class="links" id="universityDropdown">
                 <a href="https://moodle.royalholloway.ac.uk/" class="link">
                     <div>
                         <img src="https://software-advice.imgix.net/managed/products/logos/moodle_logo.png?auto=format"/>
@@ -82,8 +83,8 @@
         </div>
 
         <div class="category">
-            <div class="header">Blogging</div>
-            <div class="links">
+            <div class="header" id="blogging" onclick="expand(this.id)">Blogging</div>
+            <div class="links" id="bloggingDropdown">
                 <a href="https://medium.com/" class="link">
                     <div>
                         <img src="https://pageflows.imgix.net/media/logos/medium.jpg?auto=compress&ixlib=python-1.1.2&s=c57a812322117d896d93a63af04b2cbd"/>
@@ -100,8 +101,8 @@
         </div>
 
         <div class="category">
-            <div class="header">Development</div>
-            <div class="links">
+            <div class="header" id="development" onclick="expand(this.id)">Development</div>
+            <div class="links" id="developmentDropdown">
                 <a href="https://github.com/" class="link">
                     <div>
                         <img src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"/>
@@ -136,8 +137,8 @@
         </div>
 
         <div class="category">
-            <div class="header">Crypto</div>
-            <div class="links">
+            <div class="header" id="crypto" onclick="expand(this.id)">Crypto</div>
+            <div class="links" id="cryptoDropdown">
                 <a href="https://www.coinbase.com/" class="link">
                     <div>
                         <img src="https://www.coinbase.com/assets/mobile/store_listing_icon-ffbf3ec7c91090dd1f403464fad41560dac96ce04b7d86e7a459ea09c6522c18.png"/>
@@ -160,8 +161,8 @@
         </div>
 
         <div class="category">
-            <div class="header">Entertainment</div>
-            <div class="links">
+            <div class="header" id="entertainment" onclick="expand(this.id)">Entertainment</div>
+            <div class="links" id="entertainmentDropdown">
                 <a href="http://www.totalsportek.com/" class="link">
                     <div>
                         <img src="https://www.kindpng.com/picc/m/47-473638_download-arsenal-f-c-png-free-download-dream.png"/>
