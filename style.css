@@ -43,7 +43,7 @@ body .headers_list .category .links {
   transition: display 3s;
 }
 body .headers_list .category .links .link {
-  height: 75px;
+  height: 50px;
   padding-bottom: 1em;
   text-decoration: none;
   color: inherit;
@@ -51,12 +51,12 @@ body .headers_list .category .links .link {
   font-size: 22px;
 }
 body .headers_list .category .links .link div span {
-  line-height: 75px;
+  line-height: 50px;
   font-size: 1em;
   display: inline-block;
 }
 body .headers_list .category .links .link div img {
-  height: 75px;
+  height: 50px;
   display: inline-block;
   float: left;
   padding-right: 0.5em;
