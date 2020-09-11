@@ -100,17 +100,18 @@ body {
       flex-direction: row;
       flex-wrap: wrap;
       top: 55%;
-      left: 5%; }
+      left: 10%; }
       body .headers_list .category {
         min-width: 300px; }
         body .headers_list .category .header {
           font-size: 3em; }
         body .headers_list .category .links {
           display: block; }
-          body .headers_list .category .links .link div span {
-            line-height: 75px;
+          body .headers_list .category .links .link div {
             height: 85px; }
-          body .headers_list .category .links .link div img {
-            height: 75px; } }
+            body .headers_list .category .links .link div span {
+              line-height: 75px; }
+            body .headers_list .category .links .link div img {
+              height: 75px; } }
 
 /*# sourceMappingURL=style.css.map */
