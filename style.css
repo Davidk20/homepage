@@ -107,11 +107,10 @@ body {
           font-size: 3em; }
         body .headers_list .category .links {
           display: block; }
-          body .headers_list .category .links .link {
-            height: 75px; }
-            body .headers_list .category .links .link div span {
-              line-height: 75px; }
-            body .headers_list .category .links .link div img {
-              height: 75px; } }
+          body .headers_list .category .links .link div span {
+            line-height: 75px;
+            height: 85px; }
+          body .headers_list .category .links .link div img {
+            height: 75px; } }
 
 /*# sourceMappingURL=style.css.map */
