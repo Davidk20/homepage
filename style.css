@@ -99,8 +99,7 @@ body {
     body .headers_list {
       flex-direction: row;
       flex-wrap: wrap;
-      top: 55%;
-      left: 10%; }
+      top: 55%; }
       body .headers_list .category {
         min-width: 300px; }
         body .headers_list .category .header {
