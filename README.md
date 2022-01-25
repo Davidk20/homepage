@@ -42,4 +42,4 @@ A dynamic startpage using a JSON file to build links into categories for easy ac
 
 If the build was successful, your page should look similar to this.
 
-![Screenshot of a successful build](images\successful_build_screenshot.jpg)
+![Screenshot of a successful build](https://github.com/Davidk20/homepage/blob/570ea33a29c92a202bdb1d54dc1f8908bdb70ade/images/successful_build_screenshot.jpg)
