@@ -2,9 +2,20 @@
 async function buildLinks(){
     collectionJson = await fetch("/collection.json");
     collection = await collectionJson.json();
-    
-    for (category of collection.collection) {
-        console.log(category);
+
+    const container = document.getElementById("categories");
+
+    for (category of collection.collection) {        
+        var newCategory = document.createElement("div");
+        newCategory.classList.add("category");
+        var newHeader = document.createElement("div");
+        newHeader.classList.add("header");
+        newHeader.setAttribute("id", category.category);
+        //newHeader.addEventListener("click", expand("category"));
+        var headerText = document.createTextNode(category.category);
+        newHeader.appendChild(headerText);
+        newCategory.appendChild(newHeader);
+        container.appendChild(newCategory);
     }
 }
 
