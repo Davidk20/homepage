@@ -120,6 +120,12 @@ var links = [
 ];
 
 
+async function buildLinks(){
+    let collectionJson = await fetch("/collection.json");
+    let collection = await collectionJson.json();
+    console.log(collection);
+}
+
 
 // Expands the dropdown categories on mobile or smaller devices where the compact view is used.
 function expand(id){
