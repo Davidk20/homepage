@@ -22,7 +22,7 @@ body .background {
   background-size: cover;
 }
 
-body .headers_list {
+body .categories {
   display: flex;
   flex-direction: column;
   z-index: 2;
@@ -31,25 +31,25 @@ body .headers_list {
   left: 5%;
 }
 
-body .headers_list .category {
+body .categories .category {
   border-left: 2px solid #999999;
   margin: 1em 0 1em 1em;
   padding-left: 0.5em;
   min-width: 320px;
 }
 
-body .headers_list .category .header {
+body .categories .category .header {
   font-size: 2em;
   text-decoration: underline;
 }
 
-body .headers_list .category .links {
+body .categories .category .links {
   margin-top: 1em;
   margin-left: 2em;
   transition: display 3s;
 }
 
-body .headers_list .category .links .link {
+body .categories .category .links .link {
   padding-bottom: 1em;
   text-decoration: none;
   color: inherit;
@@ -57,17 +57,17 @@ body .headers_list .category .links .link {
   font-size: 22px;
 }
 
-body .headers_list .category .links .link div {
+body .categories .category .links .link div {
   height: 60px;
 }
 
-body .headers_list .category .links .link div span {
+body .categories .category .links .link div span {
   line-height: 50px;
   font-size: 1em;
   display: inline-block;
 }
 
-body .headers_list .category .links .link div img {
+body .categories .category .links .link div img {
   height: 50px;
   display: inline-block;
   float: left;
@@ -86,7 +86,7 @@ body .headers_list .category .links .link div img {
   body .background {
     background-image: url("background.jpg");
   }
-  body .headers_list {
+  body .categories {
     top: 50px;
     flex-direction: column;
   }
@@ -107,27 +107,27 @@ body .headers_list .category .links .link div img {
     height: 110vh;
     width: 110vw;
   }
-  body .headers_list {
+  body .categories {
     top: 55%;
     flex-direction: row;
     flex-wrap: wrap;
     left: 2%;
   }
-  body .headers_list .category {
+  body .categories .category {
     min-width: 220px;
     padding-left: 0.5em;
   }
-  body .headers_list .category .links {
+  body .categories .category .links {
     display: block;
   }
-  body .headers_list .category .links .link {
+  body .categories .category .links .link {
     height: 50px;
   }
-  body .headers_list .category .links .link div span {
+  body .categories .category .links .link div span {
     line-height: 50px;
     font-size: 22px;
   }
-  body .headers_list .category .links .link div img {
+  body .categories .category .links .link div img {
     height: 50px;
     padding-right: 0.5em;
   }
@@ -145,54 +145,54 @@ body .headers_list .category .links .link div img {
     height: 110vh;
     width: 110vw;
   }
-  body .headers_list {
+  body .categories {
     flex-direction: row;
     flex-wrap: wrap;
     top: 40%;
   }
-  body .headers_list .category {
+  body .categories .category {
     min-width: 300px;
   }
-  body .headers_list .category .header {
+  body .categories .category .header {
     font-size: 3em;
   }
-  body .headers_list .category .links {
+  body .categories .category .links {
     display: block;
   }
-  body .headers_list .category .links .link div {
+  body .categories .category .links .link div {
     height: 85px;
   }
-  body .headers_list .category .links .link div span {
+  body .categories .category .links .link div span {
     line-height: 75px;
   }
-  body .headers_list .category .links .link div img {
+  body .categories .category .links .link div img {
     height: 75px;
   }
 }
 
 @media screen and (min-width: 2200px) {
-  body .headers_list {
+  body .categories {
     top: 55%;
   }
 }
 
 @media screen and (min-width: 3000px) {
-  body .headers_list {
+  body .categories {
     top: 55%;
   }
-  body .headers_list .category {
+  body .categories .category {
     margin: 2em 0 2em 4em;
   }
-  body .headers_list .category .header {
+  body .categories .category .header {
     font-size: 6em;
   }
-  body .headers_list .category .links {
+  body .categories .category .links {
     margin-top: 1.5em;
   }
-  body .headers_list .category .links .link {
+  body .categories .category .links .link {
     font-size: 50px;
   }
-  body .headers_list .category .links .link div {
+  body .categories .category .links .link div {
     height: 80px;
     margin-bottom: 20px;
   }
